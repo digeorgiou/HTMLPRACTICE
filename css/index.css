@@ -1,3 +1,50 @@
-body {
-    color: red
+body {padding-left: 2em;
+}
+h2 {
+    color: #834a37;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+li{
+    padding-left: 1em;
+}
+ol li::marker {
+    color: #834a37;
+    font-weight: bold;
+} 
+ul li::marker{
+    color: #834a37;
+}
+/* ετσι μπορω να αλλαξω μονο το marker της λιστας μου κι οχι τα γραμματα. */
+.prep-time{
+    color: #70304a
+}
+.prep-div{
+    background-color: #fff7fc;
+    margin:auto;
+    width: 95%
+}
+.outfit-700 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-left: 1%;
+  }
+.outfit-400 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #817e79;
+    line-height: 30px;
+}
+strong {
+    color: #69615e
 }
